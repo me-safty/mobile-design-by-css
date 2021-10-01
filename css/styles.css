@@ -313,10 +313,10 @@ body {
   color: var(--paragraph);
   font-size: 18px;
 }
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   .mobile {
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
   }
   .box-gradi {
     left: -242px;
@@ -324,12 +324,12 @@ body {
     top: -30px;
   }
   .content {
-    left: 50%;
-    transform: translateX(-50%);
     width: 310px;
     text-align: center;
-    top: 95%;
     padding-bottom: 60px;
+    position: unset;
+    margin: auto;
+    margin-top: 295px;
   }
   .content p {
     font-size: 16px;
